@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------- HEADER -----------*/
+
+.header{
+    max-width: 1450px;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header .wapper{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .wapper .text a{
+    text-decoration: none;
+    color: #8E8999;
+    font-size: 20px;
+}
+
+.header .wapper .text a:hover{
+    color: black;
+}
+
+.header .wapper .text{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/*----------- MAIN -----------*/
+
+.main{
+    margin: 0 auto;
+    max-width: 1450px;
+    padding: 150px 15px;
+    width:  100%;
+} 
+
+.main .wapper h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.main .wapper p{
+    font-weight: 100px;
+    font-size: 20px;
+    line-height: 32px;
+    line-break: auto;
+    color: #96929E;
+}
+
+.main .wapper .btn{
+    border: 1px solid #0000ff;
+    color: white;
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+    background-color: #0000ff;
+}
+
+.main .wapper .btn:hover{
+    color: #0000ff;
+    background-color: #ffffff;
+}
+
+.main .wapper{
+    display: flex;
+    align-items: center;
+}
+
+.main .wapper .container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 10px 20px;
+}
+
+/*----------- OUR SERVICES -----------*/
+
+.services{
+    padding: 150px 15px;
+    margin: 0 auto;
+    max-width: 1450px;
+    width: 100%;
+}
+
+.services .text h1{
+    color: #000000;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.services .text p{
+    color: #9E9BA5;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.services .container .btn1 .btn h1{
+    font-size: 24px;
+    color: #000000;
+    line-height: 56px;
+    font-weight: 700;
+    display: flex;
+    margin: 10px;
+}
+
+.services .container .btn2 .btn h1{
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    line-height: 56px;
+    font-weight: 700;
+    display: flex;
+    margin: 10px;
+}
+
+.services .container{
+    margin: 30px auto;
+    padding: 30px 40px;
+    height: auto;
+
+}
+
+.services .container .btn1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 350px;
+    max-width: 1450px;
+}
+
+.services .container .btn2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 290px;
+    max-width: 1450px;
+    padding-top: 50px;
+}
+
+.services .container .btn1 .btn{
+    border: none;
+    padding-left: 80px;
+    background-color: #ffffff;
+    display: block;
+}
+
+.services .container .btn2 .btn{
+    padding-left: 10px;
+    border: none;
+    display: block;
+    background-color: #ffffff;
+}
+
+.services .container .btn1 .btn p{
+    color: #9E9BA5;
+}
+
+.services .container .btn2 .btn p{
+    color: #9E9BA5;
+}
+
+.services .button button{
+    margin-left: 50%;
+    border: 2px solid #0000ff;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.services .button button:hover{
+    color: #ffffff;
+    background-color: #0000ff;
+}
+
+.services .button{
+    max-width: 1450px;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
